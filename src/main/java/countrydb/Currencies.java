@@ -2,9 +2,15 @@ package countrydb;
 
 public class Currencies {
 	XCD XCD;
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+	public XCD getXCD() {
+		return XCD;
 	}
 
-}
+	public void setXCD(XCD xCD) {
+		XCD = xCD;
+	}
+	
+	}
+
+
